@@ -3,10 +3,12 @@
   width: 950px;
 }
 
-#header {
- width: 230px;
+.newsection {
+  @extend .section;
+  width: 750px;
 }
 
-#section {
- width: 750px; 
+.newheader {
+  @extend .header;
+  width: 230px;
 }
