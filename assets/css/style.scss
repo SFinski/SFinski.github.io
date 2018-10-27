@@ -1,8 +1,9 @@
-section {
-  width: 750px;
-}
-
-.leftput section {
+.leftput {
   width: 25%; 
   float: left;
+}
+
+.rightput {
+  width: 70%; 
+  float: right;
 }
