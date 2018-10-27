@@ -15,7 +15,7 @@
       <h1>Finski Siarhei</h1>
     </header>
     <div class="wrapper">
-      <section class="leftput">
+      <div class="leftput">
       <img src="https://raw.githubusercontent.com/SFinski/SFinski.github.io/master/images/IMG_2986.jpg" alt="my photo">
       
       <p><b>Contact: </b> <br />
@@ -24,18 +24,21 @@
         8 Place Aurélie Nemours<br />
         75013 Paris
       </p>
-      </section>
+      </div>
       
-      <section>
+      <div>
 
       {{ content }}
 
-      </section>
+      </div>
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
       </footer>
+    </div>
+    <div>
+      <h2>Publications</h2>
     </div>
     
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
