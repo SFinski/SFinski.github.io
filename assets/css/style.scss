@@ -32,7 +32,7 @@ table, th, td{
   width: 100%;
   left: 0px;
   position: fixed;
-  padding: 15px;
+  padding: 0px;
 }
 
 .boxhead{
@@ -51,6 +51,7 @@ table, th, td{
 
 .header_title{
   float: left; 
+  margin-right: 40px;
 }
 
 .header_links{ 
