@@ -24,8 +24,15 @@ table, th, td{
 }
 
 .head{
-  top:0px;
-  left:50px;
-  position:absolute;
+  top: 0px;
+  width: 100%;
+  left: 0px;
+  position: fixed;
   padding: 15px;
+  background-color: #343a40!important;
+  height: 30px;
+}
+
+.boxhead{
+  color = white; 
 }
