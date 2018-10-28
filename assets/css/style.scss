@@ -4,13 +4,13 @@
 @import "{{ site.theme }}";
 body{   
     padding: 0px; 
+    margin: 0px;
     background-color:#E8E8E8;
 }
 
 .head{
   width: 100%;
   padding: 0px;
-  margin-bottom: 25px;
   max-height: 100px;
 }
 
@@ -50,8 +50,11 @@ a.text_header_links:hover {
 }
 
 .main_content{
-  width: 100%; 
-  padding: 50px;
+  margin-right: 60px;
+  margin-left: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
   background-color: white;
 }
 
@@ -60,7 +63,7 @@ a.text_header_links:hover {
 }
 
 .leftput {
-  width: 23%; 
+  width: 200px; 
   float: left;
   background-color: #eee;
   padding: 10px;
