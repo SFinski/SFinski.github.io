@@ -48,14 +48,23 @@ a.text_header_links:hover {
   margin-left: 25px;
 }
 
+@media (min-width: 768px)
+  .main_content {
+    margin-right: 60px;
+    margin-left: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 1px;
+    background-color: white;
+}
+
 .main_content{
-  margin-right: 60px;
-  margin-left: 60px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 30px;
-  padding-bottom: 1px;
-  background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 1px;
+    background-color: white;
 }
 
 .allcenter {
