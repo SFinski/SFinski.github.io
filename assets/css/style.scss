@@ -19,6 +19,7 @@ body{
   padding: 18px;
   padding-bottom: 0px;
   margin: 0px;
+  overflow: auto;
 }
 
 .header_title{
@@ -93,7 +94,7 @@ a.text_header_links:hover {
 
 @media screen and (min-width: 768px) {
     .leftput {
-       width: 205px; 
+       width: 240px; 
        float: left;
        background-color: #eee;
        padding: 10px;
