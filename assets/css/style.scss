@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 :root {
-  --mix_size: 600px;
+  --min_size: 600px;
   --max_size: 599px;
 }
 body{   
