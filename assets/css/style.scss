@@ -75,13 +75,23 @@ a.text_header_links:hover {
 }
 
 .leftput {
-  width: 205px; 
-  float: left;
+  width: 100%; 
   background-color: #eee;
   padding: 10px;
   border-radius: 6px;
   margin-right: 20px;
-  min-width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+    .leftput {
+        margin-right: 60px;
+        margin-left: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        padding-bottom: 1px;
+        background-color: white;
+    }
 }
 
 .rightput {
