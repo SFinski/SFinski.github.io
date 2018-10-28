@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 body{   
-    margin:0px; 
+    padding: 0px; 
     background-color:#E8E8E8;
 }
 
@@ -49,7 +49,7 @@ a.text_header_links:hover {
   margin-left: 25px;
 }
 
-.maincontent{
+.main_content{
   width: 100%; 
   padding: 50px;
   background-color: white;
