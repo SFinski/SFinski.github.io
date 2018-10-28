@@ -2,6 +2,10 @@
 ---
 
 @import "{{ site.theme }}";
+:root {
+  --mix_size: 600px;
+  --max_size: 599px;
+}
 body{   
     padding: 0px; 
     margin: 0px;
@@ -31,7 +35,7 @@ body{
   padding-top: 5px;
   font-size: medium;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: var(--max_size)) {
     .header_links {
       display: none;
     }
@@ -63,7 +67,7 @@ a.text_header_links:hover {
     background-color: white;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: var(--min_size)) {
     .main_content {
         margin-right: 60px;
         margin-left: 60px;
@@ -93,7 +97,7 @@ a.text_header_links:hover {
   margin-bottom: 10pt;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: var(--min_size)) {
     .leftput {
        width: 240px; 
        float: left;
