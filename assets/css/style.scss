@@ -16,7 +16,8 @@ body{
 
 .boxhead{
   background-color: #343a40!important;
-  padding: 15px;
+  padding: 18px;
+  padding-bottom: 0px;
   margin: 0px;
   overflow: auto;
 }
@@ -27,12 +28,12 @@ body{
 }
 
 .header_links{ 
-  display: none;
+  padding-top: 5px;
+  font-size: medium;
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .header_links {
-      padding-top: 5px;
-      font-size: medium;
+      display: none;
     }
 }
 
@@ -82,12 +83,13 @@ a.text_header_links:hover {
 
 .leftput {
   width: 100%; 
-  background-color: white;
+  background-color: #eee;
   border-style: solid;
   border-color: #eee;
   border-width: 1px;
   padding: 10px;
   border-radius: 6px;
+  box-sizing: border-box;
 }
 
 @media screen and (min-width: 768px) {
