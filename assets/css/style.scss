@@ -41,7 +41,11 @@ table, th, td{
   width:100%;
 }
 
-.div_header_links{ 
+.header_title{
+  float: left; 
+}
+
+.header_links{ 
   margin-left: 40px;
   float: right;
 }
