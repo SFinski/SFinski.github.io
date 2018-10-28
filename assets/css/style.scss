@@ -38,11 +38,15 @@ table, th, td{
 .boxhead{
   width:100%;
   background-color: #343a40!important;
-  height: 30px;
+  padding: 0px;
+  margin: 0px;
+  height: 52px;
 }
 
 .boxhead_content{
   width:100%;
+  position: absolute;
+  top: 10px;
 }
 
 .header_title{
