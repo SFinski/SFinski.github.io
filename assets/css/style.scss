@@ -2,37 +2,13 @@
 ---
 
 @import "{{ site.theme }}";
-.allcenter {
-  width: 100%; 
-}
-
-.leftput {
-  width: 23%; 
-  float: left;
-  background-color: #eee;
-  padding: 10px;
-  border-radius: 6px;
-  margin-right: 20px;
-  min-width: 200px;
-}
-
-.rightput {
-  min-width: 200px;
-}
-
-table, th, td{
-  border-bottom: 0px; 
-}
-
-.maintable{
-  margin-top: 0px;
+body{   
+    margin:0px; 
+    background-color:#E8E8E8;
 }
 
 .head{
-  top: 0px;
   width: 100%;
-  left: 0px;
-  position: fixed;
   padding: 0px;
   margin-bottom: 25px;
   max-height: 100px;
@@ -71,4 +47,28 @@ a.text_header_links:hover {
 #header_on_black{
   color: white; 
   margin-left: 25px;
+}
+
+.maincontent{
+  width: 100%; 
+  padding: 50px;
+  background-color: white;
+}
+
+.allcenter {
+  width: 100%; 
+}
+
+.leftput {
+  width: 23%; 
+  float: left;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 6px;
+  margin-right: 20px;
+  min-width: 200px;
+}
+
+.rightput {
+  min-width: 200px;
 }
