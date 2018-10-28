@@ -33,11 +33,15 @@ table, th, td{
   left: 0px;
   position: fixed;
   padding: 15px;
+}
+
+.boxhead{
+  width:100%;
   background-color: #343a40!important;
   height: 30px;
 }
 
-.boxhead{
+.boxhead_content{
   width:100%;
 }
 
