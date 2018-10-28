@@ -29,6 +29,11 @@ body{
   padding-top: 5px;
   font-size: medium;
 }
+@media screen and (min-width: 768px) {
+    .header_links {
+        display: none;
+    }
+}
 
 a.text_header_links{
   text-decoration: none;
