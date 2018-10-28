@@ -37,6 +37,25 @@ table, th, td{
   height: 30px;
 }
 
+.boxhead{
+  float: left; 
+}
+
+.div_header_links{ 
+}
+
+a.text_header_links{
+  text-decoration: none;
+}
+
+a.text_header_links:link {
+  color: #6c757d;
+}
+
+a.text_header_links:hover {
+  color: #C3C3C3;
+}
+
 #header_on_black{
   color: white; 
   margin-left: 25px;
