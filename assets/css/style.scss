@@ -89,7 +89,8 @@ a.text_header_links:hover {
 
 .leftput {
   width: 100%; 
-  background-color: #eee;
+  background-color: aliceblue;
+  color: darkslategrey;
   border-style: solid;
   border-color: #eee;
   border-width: 1px;
@@ -106,7 +107,8 @@ a.text_header_links:hover {
     .leftput {
        width: 240px; 
        float: left;
-       background-color: #eee;
+       background-color: aliceblue;
+       color: darkslategrey;
        padding: 10px;
        border-radius: 6px;
        margin-right: 20px;
@@ -121,3 +123,14 @@ a.text_header_links:hover {
 .bottomput{
   width: 100%;
 }
+
+.Pub{ 
+  
+}
+
+.Title{
+  font-size: large;
+  color: steelblue;
+}
+
+
