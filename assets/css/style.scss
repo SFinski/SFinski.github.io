@@ -163,14 +163,22 @@ a.text_header_links:hover {
   width: 100%;
   display: flex;
   margin-bottom: 10px;
-  box-sizing: border-box;
-  padding-left: 20px;
+}
+@media screen and (min-width: 700px) {
+    .cv_entry {
+      box-sizing: border-box;
+      padding-left: 20px;
+    }
 }
 
 .teaching_entry{
   width: 100%;
   display: flex;
   margin-bottom: 10px;
-  box-sizing: border-box;
-  padding-left: 20px;
+}
+@media screen and (min-width: 700px) {
+    .teaching_entry {
+      box-sizing: border-box;
+      padding-left: 20px;
+    }
 }
