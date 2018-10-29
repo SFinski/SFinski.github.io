@@ -40,6 +40,11 @@ body{
   float: left; 
   margin-right: 40px;
 }
+@media screen and (max-width: 699px) {
+    .header_title {
+      width: 100%;
+    }
+}
 
 .header_links{ 
   padding-top: 9px;
@@ -68,6 +73,11 @@ a.text_header_links:hover {
   color: white; 
   margin-left: 25px;
   margin-right: 50px;
+}
+@media screen and (max-width: 699px) {
+    .header_on_black {
+      margin-right: 25px;
+    }
 }
 
 .main_content{
