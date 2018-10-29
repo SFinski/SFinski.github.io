@@ -1,5 +1,5 @@
 <h2>Position:</h2>
-I am a third year PhD student in pure mathematics in Université Paris Diderot under the direction of Prof. Xiaonan Ma.
+I am a third year PhD student in pure mathematics in Université Paris Diderot under the direction of Prof. <a href="https://webusers.imj-prg.fr/~xiaonan.ma/">Xiaonan Ma</a>.
 
 <h2>Research interests:</h2>
 
