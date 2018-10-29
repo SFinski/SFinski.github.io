@@ -2,6 +2,10 @@
 ---
 
 @import "{{ site.theme }}";
+#anchor {
+    padding-top: 67px;
+    margin-top: -67px;
+}
 :root {
   --min_size: 600px;
   --max_size: 599px;
