@@ -143,9 +143,14 @@ a.text_header_links:hover {
 
 .year{
   float: left;
-  width: 100px;
+  width: 50px;
   font-weight: bold;
   font-size: initial; 
+}
+@media screen and (min-width: 600px) {
+    .year {
+       width: 100px; 
+    }
 }
 
 .university{
