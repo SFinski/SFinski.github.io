@@ -15,7 +15,7 @@ body{
 .head{
   width: 100%;
   padding: 0px;
-  max-height: 100px;
+  height: 57px;
 }
 
 .boxhead{
@@ -23,6 +23,8 @@ body{
   padding: 14px;
   margin: 0px;
   overflow: auto;
+  position: fixed;
+  width: 100%;
 }
 
 .header_title{
@@ -95,7 +97,9 @@ a.text_header_links:hover {
   border-radius: 6px;
   box-sizing: border-box;
   margin-bottom: 10pt;
-  max-width:300px;
+  margin: auto;
+  margin-bottom: 20px;
+  max-width: 300px;
 }
 
 @media screen and (min-width: 700px) {
