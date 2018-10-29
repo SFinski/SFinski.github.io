@@ -35,6 +35,12 @@ body{
   border-color: steelblue;
   opacity: 0.95;
 }
+@media screen and (max-width: 699px) {
+    .header_title {
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+}
 
 .header_title{
   float: left; 
@@ -43,6 +49,8 @@ body{
 @media screen and (max-width: 699px) {
     .header_title {
       width: 100%;
+      display: flex;
+      justify-content: center;
     }
 }
 
@@ -76,7 +84,8 @@ a.text_header_links:hover {
 }
 @media screen and (max-width: 699px) {
     .header_on_black {
-      margin-right: 25px;
+      margin-left: 0px;
+      margin-right: 0px;
     }
 }
 
