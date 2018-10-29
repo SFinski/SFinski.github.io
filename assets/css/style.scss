@@ -42,7 +42,7 @@ body{
 }
 
 .header_links{ 
-  padding-top: 5px;
+  padding-top: 9px;
   font-size: medium;
 }
 @media screen and (max-width: 699px) {
@@ -67,6 +67,7 @@ a.text_header_links:hover {
 #header_on_black{
   color: white; 
   margin-left: 25px;
+  margin-right: 50px;
 }
 
 .main_content{
