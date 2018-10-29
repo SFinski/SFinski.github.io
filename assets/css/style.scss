@@ -125,7 +125,10 @@ a.text_header_links:hover {
 }
 
 .Pub{ 
-  
+  border-style: solid;
+  border-color: #eee;
+  border-width: 1px;
+  padding: 10px;
 }
 
 .Title{
@@ -133,4 +136,6 @@ a.text_header_links:hover {
   color: steelblue;
 }
 
-
+.Journal{
+  padding-left: 5px;
+}
