@@ -163,10 +163,14 @@ a.text_header_links:hover {
   width: 100%;
   display: flex;
   margin-bottom: 10px;
+  box-sizing: border-box;
+  padding-left: 20px;
 }
 
 .teaching_entry{
   width: 100%;
   display: flex;
   margin-bottom: 10px;
+  box-sizing: border-box;
+  padding-left: 20px;
 }
