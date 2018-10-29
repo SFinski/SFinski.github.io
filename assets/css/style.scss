@@ -198,6 +198,13 @@ a.text_header_links:hover {
 
 .footnote{
     width: 100%;
-    padding: 10px;
+    padding: 5px;
+    padding-top: 0pt;
     box-sizing: border-box;
+    border-style: dashed;
+    border-color: #eee;
+    border-width: 0px;
+    border-top-width: 1px;
+    font-size: smaller;
+    text-align: center;
 }
