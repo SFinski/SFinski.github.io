@@ -20,7 +20,8 @@ body{
 
 .boxhead{
   background-color: #343a40!important;
-  padding: 14px;
+  padding: 18px;
+  padding-bottom: 0;
   margin: 0px;
   overflow: auto;
   position: fixed;
@@ -30,7 +31,6 @@ body{
 .header_title{
   float: left; 
   margin-right: 40px;
-  height: 29px;
 }
 
 .header_links{ 
