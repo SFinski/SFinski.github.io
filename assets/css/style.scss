@@ -36,7 +36,7 @@ body{
   opacity: 0.95;
 }
 @media screen and (max-width: 699px) {
-    .header_title {
+    .boxhead {
       padding-right: 0px;
       padding-left: 0px;
     }
@@ -80,13 +80,8 @@ a.text_header_links:hover {
 #header_on_black{
   color: white; 
   margin-left: 25px;
-  margin-right: 50px;
-}
-@media screen and (max-width: 699px) {
-    .header_on_black {
-      margin-left: 0px;
-      margin-right: 0px;
-    }
+  margin-right: 25px;
+  
 }
 
 .main_content{
