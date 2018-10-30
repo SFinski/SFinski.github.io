@@ -55,7 +55,7 @@ a:hover {
 
 .header_title{
   float: left; 
-  margin-right: 40px;
+  margin-right: 30px;
 }
 @media screen and (max-width: 699px) {
     .header_title {
@@ -85,7 +85,6 @@ a.text_header_links:link, a.text_header_links:visited {
 }
 
 a.text_header_links:hover {
-  font-weight: normal;
   color: white;
 }
 
