@@ -267,3 +267,31 @@ li.entry_new_talk:hover > .rotated_entry{
       padding-left: 10px;
     }
 }
+
+.entry_new_cv{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  border-left: solid 3pt #EEF;
+  height: 80px;
+  padding-left: 10px;
+  transition: background 0.3s ease-in-out;
+}
+
+li.entry_new_cv:hover {
+  background-color: #ccffcc;
+  border-left: solid 3pt #66ff66;
+}
+
+li.entry_new_cv:hover > .rotated_entry{
+    color: #66ff66;
+}
+
+@media screen and (min-width: 700px) {
+    .entry_new_cv {
+      box-sizing: border-box;
+      padding-left: 10px;
+    }
+}
