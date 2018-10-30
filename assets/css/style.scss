@@ -240,7 +240,6 @@ a.text_header_links:hover {
     padding-left: 10px;
 }
 
-
 .entry_new_talk{
   width: 100%;
   display: flex;
@@ -250,6 +249,9 @@ a.text_header_links:hover {
   border-left: solid 3pt #EEF;
   height: 60px;
   padding-left: 10px;
+}
+li.entry_new_talk: hover{
+  background-color: #A1DAFF;
 }
 @media screen and (min-width: 700px) {
     .entry_new_talk {
