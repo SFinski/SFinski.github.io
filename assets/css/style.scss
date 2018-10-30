@@ -67,15 +67,16 @@ body{
 
 a.text_header_links{
   text-decoration: none;
+  color: #C0C0C0;
 }
 
 a.text_header_links:link, a.text_header_links:visited {
-  color: #6c757d;
+  color: #C0C0C0;
 }
 
 a.text_header_links:hover {
   font-weight: normal;
-  color: #C3C3C3;
+  color: white;
 }
 
 #header_on_black{
