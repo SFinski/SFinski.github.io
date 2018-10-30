@@ -250,9 +250,11 @@ a.text_header_links:hover {
   height: 60px;
   padding-left: 10px;
 }
-li.entry_new_talk: hover{
+
+li.entry_new_talk:hover {
   background-color: #A1DAFF;
 }
+
 @media screen and (min-width: 700px) {
     .entry_new_talk {
       box-sizing: border-box;
