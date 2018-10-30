@@ -173,7 +173,6 @@ a.text_header_links:hover {
 
 .Title{
   font-size: initial;
-  color: steelblue;
 }
 
 .Journal{
@@ -202,25 +201,13 @@ a.text_header_links:hover {
   font-style: italic;
 }
 
-.cv_entry{
+.entry{
   width: 100%;
   display: flex;
   margin-bottom: 10px;
 }
 @media screen and (min-width: 700px) {
-    .cv_entry {
-      box-sizing: border-box;
-      padding-left: 20px;
-    }
-}
-
-.teaching_entry{
-  width: 100%;
-  display: flex;
-  margin-bottom: 10px;
-}
-@media screen and (min-width: 700px) {
-    .teaching_entry {
+    .entry {
       box-sizing: border-box;
       padding-left: 20px;
     }
