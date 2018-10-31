@@ -250,6 +250,7 @@ a.text_header_links:hover {
   height: 60px;
   padding-left: 10px;
   transition: background 0.3s ease-in-out;
+  box-sizing: border-box;
 }
 
 li.entry_new_talk:hover {
@@ -278,6 +279,7 @@ li.entry_new_talk:hover > .rotated_entry{
   height: 80px;
   padding-left: 10px;
   transition: background 0.3s ease-in-out;
+  box-sizing: border-box;
 }
 
 li.entry_new_cv:hover {
