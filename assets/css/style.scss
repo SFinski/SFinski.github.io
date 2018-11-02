@@ -49,6 +49,7 @@ a:hover {
   border-style: solid;
   border-color: steelblue;
   opacity: 0.95;
+  z-index: 1;
 }
 @media screen and (max-width: 699px) {
     .boxhead {
