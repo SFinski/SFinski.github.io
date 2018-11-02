@@ -13,7 +13,11 @@
 body{   
     padding: 0px; 
     margin: 0px;
-    background-color:#f2f2f2;
+    background-color: white;
+}
+
+h2 {
+  color: #766C7F;   
 }
 
 ul {
@@ -22,12 +26,12 @@ ul {
 }
 
 a {
-  color: #56a4dc;
+  color: #7E94A4;
   font-weight: bold;
 }
 
 a:hover {
-  color: #1e6394;
+  color: #ACCBE1;
   font-weight: bold;
 }
 
@@ -37,7 +41,7 @@ a:hover {
 }
 
 .boxhead{
-  background-color: #343a40!important;
+  background-color: #393E41!important;
   padding: 18px;
   padding-bottom: 0;
   margin: 0px;
@@ -47,7 +51,7 @@ a:hover {
   border-width: 0px;
   border-bottom-width: 3px;
   border-style: solid;
-  border-color: steelblue;
+  border-color: #ACCBE1;
   opacity: 0.95;
   z-index: 1;
 }
@@ -83,11 +87,11 @@ a:hover {
 
 a.text_header_links{
   text-decoration: none;
-  color: #C0C0C0;
+  color: #F6F5F3;
 }
 
 a.text_header_links:link, a.text_header_links:visited {
-  color: #C0C0C0;
+  color: #F6F5F3;
 }
 
 a.text_header_links:hover {
@@ -95,7 +99,7 @@ a.text_header_links:hover {
 }
 
 #header_on_black{
-  color: white; 
+  color: #ACCBE1; 
   margin-left: 25px;
   margin-right: 25px;
   
@@ -122,7 +126,7 @@ a.text_header_links:hover {
         background-color: white;
         border-style: solid;
         border-color: #b3b3b3;
-        border-width: 1px;
+        border-width: 0px;
         border-bottom-width: 0px;
     }
 }
@@ -135,13 +139,13 @@ a.text_header_links:hover {
 
 .leftput {
   width: 100%; 
-  background-color: aliceblue;
+  background-color: #F6F5F3;
   color: darkslategrey;
   border-style: solid;
   border-color: #eee;
   border-width: 1px;
   padding: 10px;
-  border-radius: 6px;
+  border-radius: 0px;
   box-sizing: border-box;
   margin-bottom: 10pt;
   margin: auto;
@@ -286,12 +290,12 @@ li.entry_new_talk:hover > .rotated_entry{
 }
 
 li.entry_new_cv:hover {
-  background-color: #EFEEEA;
-  border-left: solid 3pt #B9314F;
+  background-color: #F6F5F3;
+  border-left: solid 3pt #5B8266;
 }
 
 li.entry_new_cv:hover > .rotated_entry{
-    color: #B9314F;
+    color: #5B8266;
 }
 
 @media screen and (min-width: 700px) {
