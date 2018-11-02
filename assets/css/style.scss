@@ -237,7 +237,7 @@ a.text_header_links:hover {
 .rotated_entry{
     width: 10px;
     font-weight: 900;
-    color: #DDD;
+    color: #393E41;
     writing-mode: vertical-lr;
     transform: rotate(180deg);  
     padding-left: 10px;
@@ -278,7 +278,7 @@ li.entry_new_talk:hover > .rotated_entry{
   flex-direction: row;
   align-items: center;
   margin-bottom: 5px;
-  border-left: solid 3pt #EEF;
+  border-left: solid 3pt #393E41;
   min-height: 80px;
   padding-left: 10px;
   transition: background 0.3s ease-in-out;
@@ -286,12 +286,14 @@ li.entry_new_talk:hover > .rotated_entry{
 }
 
 li.entry_new_cv:hover {
-  background-color: #DCFFDE;
-  border-left: solid 3pt #6BB66F;
+  background-color: #E7E5DF;
+  border-left: solid 3pt #B9314F;
+  border-top: solid 2pt #B9314F;
+  border-bottom: solid 2pt #B9314F;
 }
 
 li.entry_new_cv:hover > .rotated_entry{
-    color: #6BB66F;
+    color: #B9314F;
 }
 
 @media screen and (min-width: 700px) {
