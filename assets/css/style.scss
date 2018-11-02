@@ -246,9 +246,9 @@ a.text_header_links:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 1px;
   border-left: solid 3pt #EEF;
-  height: 60px;
+  min-height: 60px;
   padding-left: 10px;
   transition: background 0.3s ease-in-out;
   box-sizing: border-box;
@@ -277,7 +277,7 @@ li.entry_new_talk:hover > .rotated_entry{
   align-items: center;
   margin-bottom: 1px;
   border-left: solid 3pt #EEF;
-  height: 80px;
+  min-height: 80px;
   padding-left: 10px;
   transition: background 0.3s ease-in-out;
   box-sizing: border-box;
