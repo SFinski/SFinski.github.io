@@ -107,12 +107,14 @@ a.text_header_links:hover {
     padding-top: 90px;
     padding-bottom: 1px;
     background-color: white;
+    max-width: 750px;
 }
 
 @media screen and (min-width: 700px) {
     .main_content {
         margin-right: 60px;
         margin-left: 60px;
+        margin:0 auto;
         padding-left: 30px;
         padding-right: 30px;
         padding-top: 90px;
@@ -307,7 +309,7 @@ li.entry_new_cv:hover > .rotated_entry{
   align-items: center;
   margin-bottom: 1px;
   border-left: solid 3pt #EEF;
-  min-height: 80px;
+  min-height: 60px;
   padding-left: 10px;
   transition: background 0.3s ease-in-out;
   box-sizing: border-box;
