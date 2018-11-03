@@ -53,7 +53,8 @@ a:hover {
   background-color: #393E41!important;
   padding: 18px;
   padding-bottom: 0px;
-  padding-right: 9px;
+  padding-left: 9px;
+  padding-right: 0px;
   margin: 0px;
   overflow: auto;
   width: 100%;
@@ -83,7 +84,7 @@ a:hover {
 
 .header_title{
   float: left; 
-  margin-right: 30px;
+  margin-right: 0px;
   position: relative;
   z-index: 1;
 }
@@ -101,7 +102,7 @@ a:hover {
   padding-top: 9px;
   font-size: 17px;
   float: right;
-  padding-right: 15px;
+  padding-right: 23px;
 }
 @media screen and (max-width: 699px) {
     .header_links {
