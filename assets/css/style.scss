@@ -40,20 +40,28 @@ a:hover {
   padding: 0px;
 }
 
+.boxcont{
+  width: 100%;
+  position: fixed;   
+}
+
 .boxhead{
   background-color: #393E41!important;
   padding: 18px;
   padding-bottom: 0;
   margin: 0px;
   overflow: auto;
-  position: fixed;
   width: 100%;
+  max-width: 800px;
   border-width: 0px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px; 
   border-bottom-width: 3px;
   border-style: solid;
   border-color: #ACCBE1;
   opacity: 0.95;
   z-index: 1;
+  margin: 0 auto;
 }
 @media screen and (max-width: 699px) {
     .boxhead {
@@ -296,6 +304,7 @@ li.entry_80px:hover {
 
 li.entry_80px:hover > .rotated_entry{
     color: #53775D;
+    z-index: 0;
 }
 
 @media screen and (min-width: 700px) {
