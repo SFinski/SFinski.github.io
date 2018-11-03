@@ -46,8 +46,13 @@ a:hover {
 
 .boxcont{
   width: 100%;
-  position: fixed;
+  position: absolute;
   z-index: 1;
+}
+@media screen and (max-width: 699px) {
+    .boxcont {
+      position: fixed;
+    }
 }
 
 .boxhead{
@@ -76,7 +81,7 @@ a:hover {
     .boxhead {
       padding-right: 0px;
       padding-left: 0px;
-      position: absolute;
+      position: relative;
       border-bottom-left-radius: 0px;
       border-bottom-right-radius: 0px;
       z-index: 1;
