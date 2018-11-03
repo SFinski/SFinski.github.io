@@ -280,7 +280,11 @@ a.text_header_links:hover {
     font-family: arial;
     color: #393E41;
     writing-mode: vertical-lr;
-    transform: rotate(180deg);  
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
     padding-right: 4px;
     padding-left: 4px;
     padding-top: 4px;
@@ -304,6 +308,10 @@ a.text_header_links:hover {
   border-bottom-width: 2px;
   min-height: 60px;
   padding-left: 10px;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  -o-transition: background 0.3s ease-in-out;
+  -ms-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
   box-sizing: border-box;
 }
