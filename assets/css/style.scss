@@ -53,6 +53,7 @@ a:hover {
   background-color: #393E41!important;
   padding: 18px;
   padding-bottom: 0;
+  padding-right: 9px
   margin: 0px;
   overflow: auto;
   width: 100%;
@@ -99,6 +100,8 @@ a:hover {
 .header_links{ 
   padding-top: 9px;
   font-size: 17px;
+  float: right;
+  padding-right: 15px;
 }
 @media screen and (max-width: 699px) {
     .header_links {
