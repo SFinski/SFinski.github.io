@@ -14,7 +14,7 @@ body{
     padding: 0px; 
     margin: 0px;
     background-color: white;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 h2 {
@@ -278,6 +278,8 @@ a.text_header_links:hover {
   flex-direction: row;
   align-items: center;
   margin-bottom: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   border-left: solid 3pt white;
   border-bottom-style: solid;
   border-top-style: solid;
@@ -313,6 +315,8 @@ li.entry_60px:hover > .rotated_entry{
   flex-direction: row;
   align-items: center;
   margin-bottom: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   border-left: solid 3pt white;
   border-bottom-style: solid;
   border-top-style: solid;
