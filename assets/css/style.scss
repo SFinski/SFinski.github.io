@@ -46,12 +46,12 @@ a:hover {
 
 .boxcont{
   width: 100%;
-  position: absolute;
+  position: fixed;
   z-index: 1;
 }
 @media screen and (max-width: 699px) {
     .boxcont {
-      position: fixed;
+      position: absolute;
     }
 }
 
