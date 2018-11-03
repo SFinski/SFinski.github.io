@@ -14,6 +14,7 @@ body{
     padding: 0px; 
     margin: 0px;
     background-color: white;
+    font-size: 15px;
 }
 
 h2 {
@@ -62,6 +63,7 @@ a:hover {
   opacity: 0.95;
   margin: 0 auto;
   position: relative;
+  box-sizing: border-box;
   z-index: 1;
 }
 @media screen and (max-width: 699px) {
@@ -91,7 +93,7 @@ a:hover {
 
 .header_links{ 
   padding-top: 9px;
-  font-size: medium;
+  font-size: 17px;
 }
 @media screen and (max-width: 699px) {
     .header_links {
