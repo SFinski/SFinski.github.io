@@ -181,7 +181,7 @@ a.text_header_links:hover {
 
 @media screen and (min-width: 700px) {
     .leftput {
-       width: 300px; 
+       width: 290px; 
        float: left;
        background-color: #F8F7F6;
        color: #393E41;
@@ -190,6 +190,11 @@ a.text_header_links:hover {
        margin-right: 20px;
        margin-bottom: 0pt;
     }
+}
+
+.photo {
+  padding: 6px;
+  box-sizing: border-box;   
 }
 
 .rightput {
