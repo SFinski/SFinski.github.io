@@ -143,7 +143,7 @@ a.text_header_links:hover {
   color: darkslategrey;
   border-style: solid;
   border-color: #eee;
-  border-width: 1px;
+  border-width: 0px;
   padding: 10px;
   border-radius: 0px;
   box-sizing: border-box;
@@ -291,11 +291,11 @@ li.entry_new_talk:hover > .rotated_entry{
 
 li.entry_new_cv:hover {
   background-color: #F6F5F3;
-  border-left: solid 3pt #5B8266;
+  border-left: solid 3pt #53775D;
 }
 
 li.entry_new_cv:hover > .rotated_entry{
-    color: #5B8266;
+    color: #53775D;
 }
 
 @media screen and (min-width: 700px) {
