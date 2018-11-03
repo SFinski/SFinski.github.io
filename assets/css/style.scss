@@ -15,6 +15,7 @@ body{
     margin: 0px;
     background-color: white;
     font-size: 16px;
+    font-family: 'Open Sans', -apple-system, "Helvetica Neue", sans-serif;
 }
 
 h2 {
@@ -266,6 +267,7 @@ a.text_header_links:hover {
 .rotated_entry{
     width: 10px;
     font-weight: 900;
+    font-family: arial;
     color: #393E41;
     writing-mode: vertical-lr;
     transform: rotate(180deg);  
