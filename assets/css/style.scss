@@ -57,9 +57,7 @@ a:hover {
 
 .boxhead{
   background-color: #393E41!important;
-  padding: 0px;
-  padding-left: 9px;
-  margin: 0px;
+  padding: 0;
   overflow: auto;
   width: 100%;
   max-width: 800px;
@@ -81,8 +79,6 @@ a:hover {
 }
 @media screen and (max-width: 699px) {
     .boxhead {
-      padding-right: 0px;
-      padding-left: 0px;
       position: relative;
       border-bottom-left-radius: 0px;
       border-bottom-right-radius: 0px;
@@ -91,9 +87,8 @@ a:hover {
 }
 
 .header_title{
-  margin: 13px;
+  margin-top: 13px;
   margin-bottom: 16px;
-  margin-right: 0px;
   position: relative;
   z-index: 1;
 }
@@ -109,7 +104,7 @@ a:hover {
 
 .header_links{ 
   font-size: 17px;
-  padding-right: 23px;
+  margin-right: 35px;
   margin-top: 5px;
 }
 @media screen and (max-width: 699px) {
@@ -133,7 +128,7 @@ a.text_header_links:hover {
 
 #header_on_black{
   color: #ACCBE1; 
-  margin-left: 25px;
+  margin-left: 35px;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-right: 25px;
