@@ -9,13 +9,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Finski Siarhei</title>
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>-->
     <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
   </head>
   <body>
   <div>
+    <script>
+	window.onscroll = function() {ifscroll()};
+	function ifscroll() {
+	  var title = document.getElementById("header_on_black");
+          var links = document.getElementById("nav_links");
+    	  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+	    title.classList.remove('fast_trans');
+            links.classList.remove('fast_trans');
+            title.classList.add('shrink_title');
+            links.classList.add('shrink_links');
+          } else {
+            title.classList.remove('shrink_title');
+            links.classList.remove('shrink_links');
+	    title.classList.add('fast_trans');
+     	    links.classList.add('fast_trans');
+          }
+	}
+    </script>
+    <!-- 
     <script>
       $(window).scroll(function() {
 	var title = document.getElementById("header_on_black");
@@ -33,6 +52,7 @@
         }
       });
     </script>
+    -->
     <div class="head">
       <div class="boxcont">
         <div class="boxhead">
