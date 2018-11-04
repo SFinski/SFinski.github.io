@@ -15,13 +15,26 @@
   </head>
   <body>
   <div>
+    <script>
+      $(window).scroll(function() {
+	      var title = document.getElementById("header_on_black");
+        var links = document.getElementById("nav_links");
+        if ($(document).scrollTop() > 50) {
+          title.classList.add('shrink_title');
+          links.classList.add('shrink_links');
+        } else {
+          title.classList.remove('shrink_title');
+          links.classList.add('shrink_links');
+        }
+      });
+    </script>
     <div class="head">
       <div class="boxcont">
         <div class="boxhead">
           <div class="header_title">
              <h1 id="header_on_black">Finski Siarhei<a href="#footnote"><sup>*</sup></a></h1>
           </div>
-          <div class="header_links">
+          <div class="header_links" id="nav_links">
             <a href = "#contact" class="text_header_links"><span>Contact</span></a>
             &nbsp; &nbsp;
             <a href = "#publications" class="text_header_links"><span>Publications</span></a>
