@@ -21,15 +21,15 @@
 	var title = document.getElementById("header_on_black");
         var links = document.getElementById("nav_links");
         if ($(document).scrollTop() > 50) {
+	  title.classList.remove('fast_trans');
+          links.classList.remove('fast_trans');
           title.classList.add('shrink_title');
           links.classList.add('shrink_links');
-	  title.classList.add('fast_trans');
-          links.classList.add('fast_trans');
         } else {
           title.classList.remove('shrink_title');
           links.classList.remove('shrink_links');
-	  title.classList.remove('fast_trans');
-          links.classList.remove('fast_trans');
+	  title.classList.add('fast_trans');
+          links.classList.add('fast_trans');
         }
       });
     </script>
