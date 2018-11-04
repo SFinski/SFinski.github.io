@@ -57,10 +57,8 @@ a:hover {
 
 .boxhead{
   background-color: #393E41!important;
-  padding: 18px;
-  padding-bottom: 0px;
+  padding: 0px;
   padding-left: 9px;
-  padding-right: 0px;
   margin: 0px;
   overflow: auto;
   width: 100%;
@@ -76,6 +74,10 @@ a:hover {
   position: relative;
   box-sizing: border-box;
   z-index: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 @media screen and (max-width: 699px) {
     .boxhead {
@@ -89,7 +91,7 @@ a:hover {
 }
 
 .header_title{
-  float: left; 
+  margin: 10px;
   margin-right: 0px;
   position: relative;
   z-index: 1;
@@ -106,10 +108,9 @@ a:hover {
 }
 
 .header_links{ 
-  padding-top: 9px;
   font-size: 17px;
-  float: right;
   padding-right: 23px;
+  margin-top: 5px;
 }
 @media screen and (max-width: 699px) {
     .header_links {
@@ -133,8 +134,9 @@ a.text_header_links:hover {
 #header_on_black{
   color: #ACCBE1; 
   margin-left: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   margin-right: 25px;
-  
 }
 
 .main_content{
