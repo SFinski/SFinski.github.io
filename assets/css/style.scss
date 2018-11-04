@@ -87,8 +87,7 @@ a:hover {
 }
 
 .header_title{
-  margin-top: 13px;
-  margin-bottom: 16px;
+  margin: 0;
   position: relative;
   z-index: 1;
 }
@@ -129,8 +128,8 @@ a.text_header_links:hover {
 #header_on_black{
   color: #ACCBE1; 
   margin-left: 35px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 13px;
+  margin-bottom: 16px;
   margin-right: 25px;
   font-size: 28px;
 }
