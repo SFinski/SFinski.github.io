@@ -273,6 +273,11 @@ a.text_header_links:hover {
     font-size: 8pt;
     text-align: center;
 }
+@media screen and (min-width: 700px) {
+    .footnote {
+      font-size: 9.7pt;
+    }
+}
 
 .rotated_entry{
     width: 10px;
