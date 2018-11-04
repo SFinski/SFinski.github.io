@@ -110,11 +110,11 @@ a:hover {
   font-size: 17px;
   margin-right: 35px;
   margin-top: 5px;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
+  -ms-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
 }
 @media screen and (max-width: 699px) {
     .header_links {
@@ -142,11 +142,11 @@ a.text_header_links:hover {
   margin-bottom: 16px;
   margin-right: 25px;
   font-size: 28px;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
+  -ms-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
 }
 
 .main_content{
@@ -399,4 +399,15 @@ li.entry_80px:hover > .rotated_entry{
       margin-top: 3px;
     }
 }
+
+@media screen and (min-width: 700px) {
+    .fast_trans {
+        -webkit-transition: all 0.1s ease-out;
+        -moz-transition: all 0.1s ease-out;
+        -o-transition: all 0.1s ease-out;
+        -ms-transition: all 0.1s ease-out;
+        transition: all 0.1s ease-out;
+    }
+}
+
 
