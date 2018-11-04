@@ -23,9 +23,13 @@
         if ($(document).scrollTop() > 50) {
           title.classList.add('shrink_title');
           links.classList.add('shrink_links');
+	  title.classList.add('fast_trans');
+          links.classList.add('fast_trans');
         } else {
           title.classList.remove('shrink_title');
           links.classList.remove('shrink_links');
+	  title.classList.remove('fast_trans');
+          links.classList.remove('fast_trans');
         }
       });
     </script>
