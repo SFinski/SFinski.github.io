@@ -376,3 +376,18 @@ li.entry_80px:hover > .rotated_entry{
     }
 }
 
+@media screen and (min-width: 700px) {
+    .shrink_title {
+      margin-top: 5px;
+      margin-bottom: 8px;
+      font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .shrink_links {
+      font-size: 15px;
+      margin-top: 3px;
+    }
+}
+
