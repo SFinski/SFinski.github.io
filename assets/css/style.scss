@@ -346,6 +346,10 @@ li.entry_60px:hover > .rotated_entry{
     color: #53775D;
 }
 
+li.entry_60px:hover > .rotated_entry_text{
+    color: #53775D;
+}
+
 @media screen and (min-width: 700px) {
     .entry_60px {
       box-sizing: border-box;
@@ -386,6 +390,10 @@ li.entry_80px:hover {
 li.entry_80px:hover > .rotated_entry{
     color: #53775D;
     z-index: 0;
+}
+
+li.entry_80px:hover > .rotated_entry_text{
+    color: #53775D;
 }
 
 @media screen and (min-width: 700px) {
