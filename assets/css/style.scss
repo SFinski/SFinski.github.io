@@ -293,6 +293,25 @@ a.text_header_links:hover {
     padding-bottom: 4px;
 }
 
+.rotated_entry_text{
+    width: 10px;
+    font-weight: 900;
+    font-family: arial;
+    color: #F8F7F6;
+    writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: bt-lr;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
 .entry_60px{
   width: 100%;
   display: flex;
