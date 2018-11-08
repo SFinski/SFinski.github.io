@@ -292,24 +292,6 @@ a.text_header_links:hover {
     padding-bottom: 4px;
 }
 
-.rotated_entry_text{
-    width: 10px;
-    font-weight: 900;
-    font-family: arial;
-    color: #93928E;
-    writing-mode: vertical-lr;
-    -webkit-writing-mode: vertical-lr;
-    -ms-writing-mode: bt-lr;
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    transform: rotate(180deg);
-    padding-right: 4px;
-    padding-left: 4px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-}
 
 .entry_60px{
   width: 100%;
@@ -345,9 +327,6 @@ li.entry_60px:hover > .rotated_entry{
     color: #53775D;
 }
 
-li.entry_60px:hover > .rotated_entry_text{
-    color: #53775D;
-}
 
 @media screen and (min-width: 700px) {
     .entry_60px {
@@ -391,9 +370,6 @@ li.entry_80px:hover > .rotated_entry{
     z-index: 0;
 }
 
-li.entry_80px:hover > .rotated_entry_text{
-    color: #53775D;
-}
 
 @media screen and (min-width: 700px) {
     .entry_80px {
