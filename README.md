@@ -3,7 +3,7 @@ I am a third year PhD student in pure mathematics in Université Paris Diderot u
 
 <h2>Research interests:</h2>
 
-I am mainly interested in global analysis on manifolds, local Atiyah-Singer theory, Riemann surfaces, flat surfaces, moduli spaces, dynamics and L<sup>2</sup> invariants.
+I am mainly interested in global analysis on manifolds, Atiyah-Singer theorem, local index theory, Riemann surfaces, flat surfaces, moduli spaces, dynamics and L<sup>2</sup> invariants.
 <p>
 Recently I also became interested in the spectral behavior of metrized simplicial approximations of a Riemannian manifold when the mesh of the approximation goes to zero.
 <p>
