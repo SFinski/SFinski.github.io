@@ -197,6 +197,12 @@ a.text_header_links:hover {
     }
 }
 
+@media screen and (min-width: 700px) {
+    .leftput:hover {
+       background-color: white;
+    }
+}
+
 .photo {
   padding: 6px;
   box-sizing: border-box;   
