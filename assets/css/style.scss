@@ -188,7 +188,7 @@ a.text_header_links:hover {
     .leftput {
        width: 290px; 
        float: left;
-       background-color: white;
+       background-color: #F8F7F6;
        color: #393E41;
        padding: 10px;
        border-radius: 0px;
@@ -204,7 +204,7 @@ a.text_header_links:hover {
 
 @media screen and (min-width: 700px) {
     .leftput:hover {
-       background-color: #F8F7F6;
+       background-color: white;
     }
 }
 
