@@ -191,6 +191,7 @@ a.text_header_links:hover {
        background-color: #F8F7F6;
        color: #393E41;
        padding: 10px;
+       margin: 1px;
        border-radius: 0px;
        margin-right: 20px;
        margin-bottom: 0pt;
@@ -205,6 +206,7 @@ a.text_header_links:hover {
 @media screen and (min-width: 700px) {
     .leftput:hover {
        background-color: white;
+       outline: dashed 1px #ACCBE1;
     }
 }
 
