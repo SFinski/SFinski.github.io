@@ -168,7 +168,16 @@ a.text_header_links:hover {
   overflow: auto;
 }
 
-.leftput_par {
+.allcenter {
+  width: 100%; 
+  margin-bottom: 20px;
+  overflow: auto;
+}
+
+@media screen and (min-width: 700px) {
+    .allcenter {
+        display: flex;
+    }
 }
 
 .leftput {
