@@ -5,9 +5,9 @@ Now I am a post-doc in Université Grenoble Alpes, France, under the direction o
 
 <h2>Research interests:</h2>
 
-I am mainly interested in global analysis on manifolds, complex geometry, Atiyah-Singer theorem and local index theory.
+I am mainly interested in global analysis on manifolds, complex geometry, Atiyah-Singer theorem, local index theory.
 <p>
-Recently I also became concerned about the applications of global analysis techniques to probability theory, in particular, to the study of some critical phenomenons in statistical mechanics.
+Recently I became concerned about applications of global analysis techniques to probability theory, in particular, to the study of some critical phenomenons in statistical mechanics.
 <p>
 In my thesis I have studied the properties of holomorphic analytic torsion on complex manifolds. More precisely, I've worked on the analytic torsion on the non-compact surfaces, admitting hyperbolic cusps.
 </p>
