@@ -1,7 +1,7 @@
 <h2>Position:</h2>
-I recently defended my PhD in Université Paris Diderot under the direction of <a href="https://webusers.imj-prg.fr/~xiaonan.ma/">Xiaonan Ma</a>.
-Now I am a post-doc in Université Grenoble Alpes, France, under the direction of
+I am a post-doc in Université Grenoble Alpes, France, under the direction of
 <a href="https://www-fourier.ujf-grenoble.fr/~demailly/">Jean-Pierre Demailly</a>.
+Before that I did my PhD in Université Paris Diderot under the direction of <a href="https://webusers.imj-prg.fr/~xiaonan.ma/">Xiaonan Ma</a>.
 
 <h2>Research interests:</h2>
 
