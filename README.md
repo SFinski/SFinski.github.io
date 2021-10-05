@@ -1,8 +1,8 @@
 <h2>Position:</h2>
 I am a researcher (chargé de recherche, CNRS) in Center of Mathematics Laurent Schwartz, École Polytechnique, France. 
-From 2019-21, I was as a postdoctoral researcher in Université Grenoble Alpes, France, working under the direction of
+From September 2019 to October 2021, I was as a postdoctoral researcher in Université Grenoble Alpes, France, working under the direction of
 <a href="https://www-fourier.ujf-grenoble.fr/~demailly/">Jean-Pierre Demailly</a>.
-Before that I did my PhD in Université Paris Diderot, France, under the direction of <a href="https://webusers.imj-prg.fr/~xiaonan.ma/">Xiaonan Ma</a>.
+Prior to that I was a graduate student in Université Paris Diderot, France, working under the direction of <a href="https://webusers.imj-prg.fr/~xiaonan.ma/">Xiaonan Ma</a>.
 
 <h2>Research interests:</h2>
 
