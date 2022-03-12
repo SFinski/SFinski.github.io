@@ -6,9 +6,7 @@ Prior to that I was a graduate student in Université Paris Diderot, France, wor
 
 <h2>Research interests:</h2>
 
-I am mainly interested in global analysis on manifolds, complex geometry, Atiyah-Singer theorem, local index theory and probability theory.
+I am mainly interested in global analysis on manifolds, complex and algebraic geometry, Atiyah-Singer theorem, local index theory and probability theory.
 <p>
-Recently I also became concerned about applications of global analysis techniques to the study of some critical phenomenons in statistical mechanics.
-<p>
-In my thesis I have studied the properties of holomorphic analytic torsion on complex manifolds. More precisely, I've worked on the zeta-regularized determinanants on the non-compact surfaces, admitting hyperbolic cusps.
+Currently I'm working on extension problems in complex geometry and their applications.
 </p>
