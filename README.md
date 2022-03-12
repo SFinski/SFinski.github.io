@@ -6,7 +6,7 @@ Prior to that I was a graduate student in Université Paris Diderot, France, wor
 
 <h2>Research interests:</h2>
 
-I am mainly interested in global analysis on manifolds and complex geometry. Based on these areas, my work is also related to Atiyah-Singer theorem, local index theory, semi-classical analysis and probability theory.
+I am mainly interested in global analysis on manifolds and complex geometry. Based on the methods from those areas, my work relates to Atiyah-Singer theorem, local index theory, semi-classical analysis and probability theory.
 <p>
 Currently I'm working on extension problems in complex geometry and their applications.
 </p>
