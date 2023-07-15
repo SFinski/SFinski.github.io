@@ -8,5 +8,8 @@ Prior to that, I was a graduate student at Université Paris Diderot, France, wo
 
 I am mainly interested in global analysis on manifolds and complex geometry. Based on the methods from those areas, my work relates to Atiyah-Singer theorem, local index theory, semi-classical analysis and probability theory.
 <p>
- &nbsp;
+  
+</p>
+<p>
+  
 </p>
