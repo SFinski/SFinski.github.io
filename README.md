@@ -6,3 +6,5 @@ Global analysis on manifolds and complex geometry. Based on the methods from the
 
 <h2>Current position:</h2>
 Researcher (chargé de recherche, CNRS) in Center of Mathematics Laurent Schwartz, École Polytechnique. 
+
+Professeur chargé de cours d’exercice incomplet, École Polytechnique.
