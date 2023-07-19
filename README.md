@@ -1,6 +1,6 @@
 I am a mathematician working in geometry.
 
-<h3>Research interests:</h3>
+<b style="color: #766C7F;">Research interests:</b>
 
 Global analysis on manifolds and complex geometry. My work also relates to the Atiyah-Singer index theorem, local index theory, semi-classical analysis, pluripotential theory and probability theory. Currently, I'm working on Geometric Quantization.
 
