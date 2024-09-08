@@ -1,6 +1,6 @@
 I am a mathematician working in geometry.
 
-<b style="color: #766C7F;">Research interests:</b> Global analysis on manifolds and complex geometry. My most recent work deals with asymptotic problems in complex geometry; some of my previous writings are related to the Atiyah-Singer index theorem, local index theory, semi-classical analysis, pluripotential theory and probability theory.
+<b style="color: #766C7F;">Research interests:</b> Global analysis on manifolds and complex geometry. My most recent work focuses on asymptotic problems in complex geometry, while my earlier writings involve topics such as the Atiyah-Singer index theorem, local index theory, pluripotential theory, and probability theory.
 
 <b style="color: #766C7F;">Current position:</b> Researcher (chargé de recherche) in CNRS.
 Professeur chargé de cours d’exercice incomplet, Centre de mathématiques Laurent Schwartz, École Polytechnique, Palaiseau, France.
