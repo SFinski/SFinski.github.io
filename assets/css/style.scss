@@ -48,6 +48,7 @@ a:hover {
   outline: none;
   font-size: 30px;
   font-weight: bold;
+  transition: background 0.3s ease-in-out;
 }
 
 .active, .collapsible:hover {
