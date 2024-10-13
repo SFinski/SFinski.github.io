@@ -1015,14 +1015,30 @@
           </li>
         </ul>
       </div>
-     <!-- <div class="footnote">
-       <div style="position:relative;">
-          <a id="footnote" style="position:absolute; top:-80px;"></a>
+       <div class="bottomput">
+	<button class="collapsible">Open Collapsible</button>
+	<div class="content">
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	</div>
         </div>
-        <sup>*</sup>"Siarhei" is the transliteration of my given name from Belarusian to English. 
-        This variant appears in my passport and is the only version used officially. 
-        In personal commutications I usually use more common transliteration from Russian, which is "Sergey". 
-      </div>-->
+
+
+      <script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+	
+	for (i = 0; i < coll.length; i++) {
+	  coll[i].addEventListener("click", function() {
+	    this.classList.toggle("active");
+	    var content = this.nextElementSibling;
+	    if (content.style.maxHeight){
+	      content.style.maxHeight = null;
+	    } else {
+	      content.style.maxHeight = content.scrollHeight + "px";
+	    } 
+	  });
+	}
+      </script>
       
       <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
       {% if site.google_analytics %}
